@@ -1,0 +1,29 @@
+table {
+    margin-left: auto;
+    margin-right: auto; /*for centering the table margin left and right used */
+  
+   margin-top: 10%;
+   border-collapse: collapse;
+   
+}
+body {
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+}
+td {
+    padding: 15px;
+    text-align:left;
+   
+}
+tr:hover { /* when mouseover changes the color tr s */
+   
+    background:linear-gradient(to right top,#f46b45,#eea849)
+}
+#kurumek {
+    position: relative;
+    top:-115px;
+    left:600px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+ 
+}

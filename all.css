@@ -1,0 +1,96 @@
+body {
+    
+    background-image: url("images/1.jpg");
+    
+    background-size:100% 100% ;
+    overflow: hidden;
+  
+}
+html,body {
+    min-height: 100%;
+}
+#id {
+    
+    position:fixed;
+    top:10px;
+    left:10px; /*fixed to the left top the logo */
+    width: 250px;
+    height: 250px;
+}
+.cont{
+   
+
+    position: absolute;
+    top:55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+justify-content: flex-end;
+}
+.cont img {
+    margin-left: 58px; /*or spaces between images */
+}
+.tab {
+    
+    float: left;
+
+}
+
+h1{
+    text-align: center;
+    color: azure;
+
+}
+a {
+    text-decoration: none; /* link tags without scratches */
+    
+}
+
+.cont img{
+    width: 155px;
+    height: 180px;
+    
+ 
+}
+.top {
+   height:100%;
+   background-image: url("./katilimci/1.jpg");
+  
+}
+.start {
+    background-color: black;
+    position: fixed;
+    top:0;
+    left:0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.starting { /* text of the dark place */
+    color:red;
+    font-family: "Lobster",cursive;
+}
+.slide {
+    background-color:black;
+    position: fixed;
+    top:0;
+    left:0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translateY(100%); /* slide in y axis */
+}
+.first {
+    background-color: black;
+    overflow: hidden;
+}
+.first span {
+    transform: translateY(100%);
+    display: inline-block;
+
+}

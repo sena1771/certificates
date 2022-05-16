@@ -1,0 +1,153 @@
+label {
+    display: block;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+form {
+    width: 300px;
+    height: 300px;
+    display: block;
+    text-align: center;
+   
+}
+
+body {
+   
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    
+}
+#h {
+    text-align: center;
+    position: relative;
+    top:80px;
+}
+.co {
+    display: flex;
+    justify-content: center; /* all items at the center through with flex and justify content */
+    align-items: center;
+    
+   width: 450px;
+   height: 450px;
+   position:absolute;
+   left: 500px;
+   top:200px;
+   border-radius: 2rem; /* radius borders*/
+   background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+ 
+}
+.coc {
+    box-shadow: 0 20px 20px rgba(0,0,0.2),0 0px 20px rgba(0,0,0.2); /*shadows up and down */
+    
+}
+#id1{
+    position: relative;
+    top:30px;
+
+}
+#id2{
+position: relative;
+top:45px;
+}
+#a_kullaniciAdi {
+    position: relative;
+    top:40px;
+}
+#a_sifre{
+    position: relative;
+    top:50px;
+    left:32px;
+}
+button{
+
+position: relative;
+top:90px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+button.active {
+    background-color: aquamarine;
+    border-style: dashed;
+    cursor: pointer;
+}
+.circle,.circle1 {
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle {
+    top:12%;
+    right: 27%;
+ 
+
+}
+.circle1 {
+    bottom: 10%;
+    left: 27%;
+
+}
+.geri {
+   
+   
+    /* for uppercase texts -- text-transform: uppercase; */
+    font-size: 6vh;
+    line-height: 6vh;
+  
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    font-family: "Sacramento", cursive;
+ 
+    animation: blink 5s infinite;
+    -webkit-animation: blink 4s infinite;
+}
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+ 
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    } }

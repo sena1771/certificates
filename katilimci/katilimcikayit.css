@@ -1,0 +1,171 @@
+
+form {
+    width: 300px;
+    height: 300px;
+    
+   display: block;
+}
+
+body {
+   
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   min-height: 100vh;
+ 
+  background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+
+  
+  
+    
+}
+#h { /*  kayıt ol text */
+    text-align: center;
+    position: relative;
+    top:35px;
+    font-size: 3rem;
+}
+
+
+button{
+
+    position: relative;
+    top:10px;
+    left:400px;
+   font-size: 30px;
+ 
+
+    }
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+select  {
+    display: flex;
+    position: relative;
+    left: 200px;
+    
+    margin-bottom: 10px; /*for distances */
+}
+label {
+    display: flex;
+    position: relative;
+    left: 200px;
+    top:5px;
+    
+    margin-bottom: 10px;  /*for distances */
+   
+}
+input {
+    display: flex;
+    position: relative;
+    left: 200px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 10px;  /*for distances */
+}
+.coc {
+    box-shadow: 0 10px 100px rgba(0,0,0.2),0 0px 20px rgba(0,0,0.2); /*shadows up and down */
+    width:650px;
+    height: 650px;
+   
+}
+.co {
+    display: flex;
+    justify-content: center; /* all items at the center through with flex and justify content */
+    align-items: center;
+    background-color: white;
+   width: 800px;
+   height: 800px;
+     
+   position: absolute; /* centering the items */
+   top:70%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%,-50%);
+   border-radius: 2rem; /* radius borders*/
+   background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+  
+ 
+}
+.co {
+    z-index: 2;
+    backdrop-filter: blur(100rem);
+}
+.circle1,.circle{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    border-radius: 50%;
+   
+
+}
+.circle {
+    top:-10%;
+    right: -15%;
+ 
+
+}
+.circle1 {
+    bottom: -10%;
+    left: -15%;
+
+}
+#gerib {
+    font-size: 6vh;
+    line-height: 6vh;
+  
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    font-family: "Sacramento", cursive;
+ 
+    animation: blink 5s infinite;
+    -webkit-animation: blink 4s infinite;
+    position: relative;
+    top:-70px;
+}
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+ 
+    text-shadow: 0 0 5px #ff00ae, 0 0 15px #ff00ae, 0 0 20px #ff00ae, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  
+        text-shadow: 0 0 5px #ff00ae, 0 0 15px #ff00ae, 0 0 20px #ff00ae, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    } }

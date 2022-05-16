@@ -1,0 +1,17 @@
+a {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+  
+}
+#etkinlik {
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    top:-75px;
+    left:-155px;
+    color: white;
+}

@@ -1,0 +1,106 @@
+form {
+    width: 300px;
+    height: 300px;
+    
+   display: block;
+}
+html, body {
+    min-height: 200%; /* increasing page div height */
+}
+body {
+   
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   min-height: 100vh;
+ 
+  background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+
+  
+  
+    
+}
+#h { /*  kayıt ol text */
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+
+
+button{
+
+    position: relative;
+    top:10px;
+    left:400px;
+   font-size: 40px;
+   
+
+    }
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+select  {
+    display: flex;
+    position: relative;
+    left: 200px;
+    
+    margin-bottom: 10px; /*for distances */
+}
+label {
+    display: flex;
+    position: relative;
+    left: 200px;
+    top:5px;
+    
+    margin-bottom: 10px;  /*for distances */
+   
+}
+input {
+    display: flex;
+    position: relative;
+    left: 200px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 10px;  /*for distances */
+}
+.coc {
+    box-shadow: 0 10px 100px rgba(0,0,0.2),0 0px 20px rgba(0,0,0.2); /*shadows up and down */
+    width:750px;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:40px;
+   
+}
+
+textarea{
+    display: flex;
+    position: relative;
+    left: 200px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 10px;  /*for distances */
+}
+.circle1,.circle{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+   
+
+}
+.circle {
+    top:25%;
+    right: 18%;
+ 
+
+}
+.circle1 {
+    bottom: -100%;
+    left: 18%;
+
+}

@@ -1,0 +1,79 @@
+label {
+    display: block;
+    text-align: center;
+}
+html,body {
+    min-height: 150%;
+}
+h1 {
+    text-align: center;
+}
+.all { /*centering all of class*/
+    
+   position: absolute;
+   top:55%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%,-50%);
+
+}
+body {
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+}
+input{
+    position: relative;
+    left:50px;
+}
+.circle1,.circle{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+   
+
+}
+.circle {
+    top:-25%;
+    right: -115%;
+ 
+
+}
+.circle1 {
+    bottom: -25%;
+    left: -115%;
+
+}.co {
+    display: flex;
+    justify-content: center; /* all items at the center through with flex and justify content */
+    align-items: center;
+    background-color: white;
+   width: 952px;
+   height: 952px;
+     
+   position: absolute; /* centering the items */
+   top:97%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%,-50%);
+   border-radius: 2rem; /* radius borders*/
+   background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+  
+ 
+}
+.co {
+    z-index: 2;
+    backdrop-filter: blur(100rem);
+}
+.coc {
+    box-shadow: 0 10px 100px rgba(0,0,0.2),0 0px 20px rgba(0,0,0.2); /*shadows up and down */
+    width:900px;
+    height: 900px;
+   
+}
+#güncelle {
+    position: relative;
+   left:545px;
+  bottom:-881px;
+}
